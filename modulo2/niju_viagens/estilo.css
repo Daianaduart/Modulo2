@@ -1,0 +1,114 @@
+.center {
+    text-align: center;
+}
+
+.btn-procurar {
+    background-color: #15a6c7;
+    color: #e7f0f4;
+}
+
+.cards-destino {
+    box-shadow: rgb(37 37 39 / 25%) 0.5rem 0.5rem 2rem 0px;
+    background-color: #00c2cb;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.card-img-top {
+    margin-top: 10px;
+    width: 16rem;
+    max-height: 10rem;
+}
+
+
+
+.calen form {
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.calen {
+    box-shadow: rgb(37 37 39 / 25%) 0.5rem 0.5rem 2rem 0px;
+    background-color: #00c2cb;
+    padding: 10px;
+}
+
+.calen div {
+    min-width: 100px;
+    max-width: 200px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.carrossel-img {
+    display: flex;
+    justify-content: center;
+}
+
+.carrossel-img>div {
+    width: 85%;
+}
+
+.carrossel-img img {
+    height: 500px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #2dd1fa;
+    padding: 50px;
+    text-align: center;
+}
+
+.card {
+    box-shadow: rgb(37 37 39 / 25%) 0.5rem 0.5rem 2rem 0px;
+}
+
+.cards-promo {
+    box-shadow: rgb(37 37 39 / 25%) 0.5rem 0.5rem 2rem 0px;
+    background-color: #00c2cb;
+    padding: 90px;
+    margin-top: 30px;
+
+}
+
+.cards-form {
+    box-shadow: rgb(37 37 39 / 25%) 0.5rem 0.5rem 2rem 0px;
+    background-color: #00c2cb;
+    padding: 10px;
+    margin: center;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.ciano.text-center {
+    color: #00c2cb;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.login {
+    display: flex;
+
+
+}
+
+.login>a {
+    margin-right: 25px;
+    color: #808080;
+}
+
+
+.green.text-center {
+    color: #696969;
+    font-family: Arial, Helvetica, sans-serif;
+}

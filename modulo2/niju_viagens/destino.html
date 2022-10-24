@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Niju Viagens</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- navbar -->
+        <nav class="navbar  navbar-light navbar-expand-lg rounded">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-2" href="index.html" style="color: #00c2cb ;">
+                    <img src="./img/niju_viagens1.png" alt="" width="300" height="200"
+                        class="d-inline-block align-text-center">
+                    Niju Viagens
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link  fs-5" href="destino.html">Destino</a>
+                        <a class="nav-link  fs-5" href="promoção.html">Promoções</a>
+                        <a class="nav-link  fs-5" href="contato.html">Contato</a>
+
+                    </div>
+                </div>
+                <div class="login">
+                    <a class="nav-link  fs-5" href="login.html">Login</a>
+                    <a class="nav-link  fs-5" href="cadastro.html">Cadastra-se</a>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- Calendario -->
+        <div class="calen my-3">
+            <form>
+                <div>
+                    <label>Origem</label>
+                    <input type="text" class="form-control mt-2" placeholder="Insira o local de origem" required>
+                </div>
+                <div>
+                    <label>Destino</label>
+                    <input type="text" class="form-control mt-2" placeholder="Insira o local de destino" required>
+                </div>
+                <div>
+                    <label>Data de ida</label>
+                    <input type="date" class="form-control mt-2" required>
+                </div>
+                <div>
+                    <label>Data de volta</label>
+                    <input type="date" class="form-control mt-2" required>
+                </div>
+                <button type="button" class="btn btn-procurar mt-4">Procurar</button>
+            </form>
+        </div>
+
+        <!-- Carrossel -->
+        <div class="carrossel-img mb-3">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/praia.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Os melhores destinos com os melhores preços</h5>
+                            <p>Pacotes com hospedagem a partir de R$700,00 </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/capitolio.mg.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Destinos nacionais com as melhores ofertas</h5>
+                            <p>Conheça os melhores lugares do Brasil com pacotes completos</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/foz-iguacu.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Destinos nacionais completos</h5>
+                            <p>Pacotes com hospedagem e passagem aérea que cabem no seu BOLSO!!</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- CARDS DESTINOS -->
+
+        <div class="cards-destino mt-3 d-flex">
+            <div class="cards-destinos row d-flex flex-wrap justify-content-around">
+
+                <div class="card m-5 " style="width: 18rem;">
+                    <img src="./img/florianopolis.sc.png" class="card-img-top" alt="Austrália">
+                    <div class="card-body center ">
+                        <h5 class="card-title">Florianópolis-SC</h5>
+                        <p class="card-text">Florianópolis é campeã de qualidade de vida entre as capitais do Brasil.
+                            Deve ser por isso que quase 1 milhão de turistas visita a capital catarinense. Lembrada como
+                            uma das mais descoladas do País, todo mundo se encaixa nessa cidade. Afinal, atrações
+                            culturais e de entretenimento tem às sobras.</p>
+                        <a href="#" class="btn btn-procurar text-black">Comprar</a>
+                    </div>
+                </div>
+                <div class="card m-5 " style="width: 18rem;">
+                    <img src="./img/recife.jpg" class="card-img-top" alt="Peru">
+                    <div class="card-body center ">
+                        <h5 class="card-title">Recife-PE</h5>
+                        <p class="card-text">Recife é cheia de vida e de atrações, e como grande parte das cidades
+                            nordestinas possui traços fortes e características marcantes. A diversidade encontrada na
+                            cultura é surpreendente. Cenário marcante, as pontes que cortam os rios do local lhe
+                            conferiram a fama de "Veneza brasileira".
+                        </p><br>
+                        <a href="#" class="btn btn-procurar text-black">Comprar</a>
+                    </div>
+                </div>
+                <div class="card m-5 " style="width: 18rem;">
+                    <img src="./img/foz-iguacu.jpg" class="card-img-top" alt="...">
+                    <div class="card-body center ">
+                        <h5 class="card-title">Foz de Iguaçu-PR</h5>
+                        <p class="card-text">Foz do Iguaçu é um dos destinos mais visitados do mundo e apresenta uma
+                            diversidade de atrações que encantam e apaixonam os turistas.
+                        </p><br><br><br><br><br>
+                        <a href="#" class="btn btn-procurar text-black align-items-end">Comprar</a>
+                    </div>
+                </div>
+                <div class="card m-5" style="width: 18rem;">
+                    <img src="./img/capitolio.mg.jpg" class="card-img-top" alt="...">
+                    <div class="card-body center">
+                        <h5 class="card-title">Capitóli-MG</h5>
+                        <p class="card-text">As águas em tom de esmeralda nos arredores de Capitólio deram à região a
+                            fama de "mar de Minas Gerais". E o título não é para menos!A verdade, no entanto, é que
+                            Capitólio vai além-mar e há diversas outras atrações para curtir durante os dias de viagem.
+                            Prepare-se para dias de intenso contato com a natureza e muito banho de cachoeira.</p>
+                        <a href="#" class="btn btn-procurar text-black">Comprar</a>
+                    </div>
+                </div>
+                <div class="card m-5" style="width: 18rem;">
+                    <img src="./img/cancun.jpg" class="card-img-top" alt="...">
+                    <div class="card-body center">
+                        <h5 class="card-title">Cancún</h5>
+                        <p class="card-text">Cancún é um dos destinos mais famosos do México e um dos mais completos do
+                            Caribe, com opções de lazer e descanso para todas as idades. E motivos não faltam para isso:
+                            são
+                            inúmeras opções de diversão, cultura e badalação – isso sem falar no maravilhoso mar
+                            caribenho.
+                        </p><br><br><br>
+                        <a href="#" class="btn btn-procurar text-black">Comprar</a>
+                    </div>
+                </div>
+                <div class="card m-5" style="width: 18rem;">
+                    <img src="./img/orlando.jpg" class="card-img-top" alt="...">
+                    <div class="card-body center">
+                        <h5 class="card-title">Orlando</h5>
+                        <p class="card-text">São inegáveis a magia e a atração exercidas por Orlando, Flórida.E por que
+                            Orlando é tão fascinante? É uma resposta fácil: porque Orlando tem a maior concentração de
+                            parques temáticos do mundo, muitos passeios junto à natureza, um paraíso das compras nos
+                            imensos Outlets, um cenário gastronômico incrível, turismo cultural pujante e muito mais!
+                        </p>
+                        <br>
+
+                        <a href="#" class="btn btn-procurar text-black">Comprar</a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="text-center text-white green">
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.4);">
+                © 2022 Niju Viagens - by Daiana Duarte
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+
+    </div>
+
+
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
